@@ -32,4 +32,10 @@ describe Solver do
           expect(solver.fizz_buzz(7)).to eq(7)
       end
     end
+
+    describe 'Reverse String testing' do
+        it 'Reverse a string' do
+            expect(solver.reverse_string("hello")).to eq("olleh")
+        end
+    end
 end
