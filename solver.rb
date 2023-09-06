@@ -20,6 +20,10 @@ class Solver
             number
         end
     end
+
+    def reverse_string(string)
+        string.reverse
+    end
 end
 
 solve = Solver.new
@@ -28,3 +32,4 @@ puts solve.fizz_buzz(6)
 puts solve.fizz_buzz(10)
 puts solve.fizz_buzz(15)
 puts solve.fizz_buzz(7)
+puts solve.reverse_string("hello")
